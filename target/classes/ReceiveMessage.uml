@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com._360t.structured.model.ReceiveMessage</OriginalElement>
+  <nodes>
+    <node x="0.0" y="406.0">com._360t.structured.service.SubmissionPublisherSubscriber</node>
+    <node x="0.0" y="505.0">java.util.concurrent.Flow.Processor</node>
+    <node x="92.0" y="203.0">com._360t.structured.model.template.MessageModel</node>
+    <node x="562.0" y="406.0">com._360t.structured.model.template.SubscriptionModel</node>
+    <node x="0.0" y="104.0">com._360t.structured.service.ClientSocketPublisherSubscriber</node>
+    <node x="504.0" y="104.0">com._360t.structured.service.ServerSocketPublisherSubscriber</node>
+    <node x="316.0" y="104.0">com._360t.structured.service.PlayerProcessor</node>
+    <node x="320.0" y="0.0">com._360t.structured.model.template.ProcessorModel</node>
+    <node x="0.0" y="307.0">com._360t.structured.model.ReceiveMessage</node>
+    <node x="361.0" y="203.0">com._360t.structured.model.template.PlayerModel</node>
+    <node x="180.0" y="307.0">com._360t.structured.model.SendMessage</node>
+    <node x="325.0" y="406.0">com._360t.structured.service.MessageTransformer</node>
+    <node x="381.0" y="307.0">com._360t.structured.model.Player</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com._360t.structured.model.SendMessage" target="com._360t.structured.model.template.MessageModel">
+      <point x="0.0" y="-27.0" />
+      <point x="248.0" y="282.0" />
+      <point x="200.0" y="282.0" />
+      <point x="36.0" y="27.0" />
+    </edge>
+    <edge source="com._360t.structured.service.ClientSocketPublisherSubscriber" target="com._360t.structured.model.template.ProcessorModel">
+      <point x="0.0" y="-27.0" />
+      <point x="148.0" y="79.0" />
+      <point x="346.6666666666667" y="79.0" />
+      <point x="-53.333333333333314" y="27.0" />
+    </edge>
+    <edge source="com._360t.structured.model.Player" target="com._360t.structured.model.template.PlayerModel">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com._360t.structured.service.ServerSocketPublisherSubscriber" target="com._360t.structured.model.template.ProcessorModel">
+      <point x="0.0" y="-27.0" />
+      <point x="652.0" y="79.0" />
+      <point x="453.33333333333337" y="79.0" />
+      <point x="53.33333333333337" y="27.0" />
+    </edge>
+    <edge source="com._360t.structured.service.PlayerProcessor" target="com._360t.structured.model.template.ProcessorModel">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com._360t.structured.model.ReceiveMessage" target="com._360t.structured.model.template.MessageModel">
+      <point x="0.0" y="-27.0" />
+      <point x="80.0" y="282.0" />
+      <point x="128.0" y="282.0" />
+      <point x="-36.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7512953367875648" x="400.0" y="279.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
